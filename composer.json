@@ -1,0 +1,16 @@
+{
+    "name": "corepos/lane-plugin-prompt-for-tare",
+    "description": "Lane plugin to automatically prompt for tare weight",
+    "type": "corepos-lane-plugin",
+    "require": {
+        "corepos/composer-installer": ">=1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "license": "GPLv2",
+    "autoload": {
+        "exclude-from-classmap": ["/*.php", "/noauto/"]
+    },
+    "version": "1.0.0"
+}
